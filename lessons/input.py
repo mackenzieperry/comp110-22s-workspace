@@ -7,8 +7,11 @@ print("You are awesome, " + user_name)
 
 x: int = 0
 
+
 def f() -> None:
-  x: int = 1
+    x: int = 1
+    print(str(x))
+
 
 f()
 print(x)
