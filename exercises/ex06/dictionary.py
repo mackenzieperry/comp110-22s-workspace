@@ -13,7 +13,6 @@ def invert(dictionary: dict[str, str]) -> dict[str, str]:
         else:
             inverted_dict[new_key] = key
     return inverted_dict
-# do I need to do something to address errors?
 
 
 def favorite_color(dictionary: dict[str, str]) -> str:
@@ -51,13 +50,3 @@ def count(sent_list: list[str]) -> dict[str, int]:
             return_dict[item] = 1
     print(return_dict)
     return return_dict
-
-
-# def main() -> None:
-#     # favorite_colors({"ellie": "Blue", "howie": "Green", "howard": "Red", "Joel": "Red", "Hidie": "Yellow"})
-#     count([])
-#     count(['1', '1', '2', '3', '2', '4', '2'])
-
-
-# if __name__ == "__main__":
-#     main()
